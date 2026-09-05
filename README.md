@@ -215,4 +215,4 @@ pnpm lint
 
 - Añadir autorización por propietario del sensor.
 
--
+- Añadir un selector de idiomas
