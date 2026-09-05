@@ -108,7 +108,7 @@ identificadores de sensores se validan como UUID v4.
 ### pnpm
 
 **Motivo**
-Lo uso cada vez mas, simplemente por que es mas rapido y mas ligero que npm.
+Me gusta mas que npm, simplemente por que es mas rapido y mas ligero.
 
 ### Paginación
 

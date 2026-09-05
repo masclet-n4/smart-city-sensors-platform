@@ -162,16 +162,3 @@ pnpm build
 pnpm preview
 pnpm lint
 ```
-
-
-## 🔭 Mejoras futuras
-
-- Añadir tests de componentes y de los flujos principales.
-
-  **Rumbo:** Utilizar Playwright para navegar por la aplicación y cubrir los
-  flujos críticos, como el login, la gestión de sensores y la ingesta de
-  lecturas.
-
-- Añadir gráficas en las lecturas de sensores.
-
-  **Rumbo:** A mi me gusta usar Chart.js pero Recharts tambien es buena opcion. Cualquiera valdria, lo implementaria haciendo un wrapper alrededor de la libreria.
