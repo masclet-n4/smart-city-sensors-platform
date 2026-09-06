@@ -174,6 +174,9 @@ ejecución.
 | GET | `/api/mock/temp-format-a` | Devuelve lecturas en formato de lista | ❌ |
 | GET | `/api/mock/temp-format-b` | Devuelve lecturas en formato agrupado | ❌ |
 
+> ⚠️ Los endpoints de mock devuelven datos hardcodeados para el sensor
+> `TEMP-HTTP-001`, por motivos de simplicidad.
+
 ## 🚀 Desarrollo
 
 ```bash
