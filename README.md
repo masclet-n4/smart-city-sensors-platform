@@ -217,3 +217,5 @@ pnpm lint
 
 - Parametrizar el `sensorId` en los endpoints de mock para que funcionen con
   cualquier sensor, en lugar de estar hardcodeados a `TEMP-HTTP-001`.
+
+- Añadir un selector de idiomas
