@@ -81,16 +81,13 @@ export class PrismaSensorRepository implements SensorRepository {
 
 
   async delete(id: string): Promise<boolean> {
-    const existingSensor = await this.findById(id);
-
-    if (!existingSensor) {
-      return false;
+    try {
+      await this.prisma.client.sensor.delete({ where: { id } });
+      return true;
+    } catch (error) {
+      if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === 'P2025') {
+        return false;
+      }
+      throw error;
     }
-
-    await this.prisma.client.sensor.delete({
-      where: { id },
-    });
-
-    return true;
   }
-}
